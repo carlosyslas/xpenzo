@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B3D1F22C5EBB50007A774F /* EditCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3D1F12C5EBB50007A774F /* EditCategoryViewModel.swift */; };
+		01B3D1F42C5ECB60007A774F /* ExpenseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3D1F32C5ECB60007A774F /* ExpenseRow.swift */; };
+		01B3D1F62C5ECBA2007A774F /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3D1F52C5ECBA2007A774F /* Expense.swift */; };
+		01B514012C5DA96300C46831 /* RootTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514002C5DA96300C46831 /* RootTabsView.swift */; };
+		01B514032C5DA98700C46831 /* ExpensesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514022C5DA98700C46831 /* ExpensesListView.swift */; };
+		01B514052C5DA9A900C46831 /* CategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514042C5DA9A900C46831 /* CategoriesListView.swift */; };
+		01B5140A2C5DAA0B00C46831 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514092C5DAA0B00C46831 /* DashboardView.swift */; };
+		01B5140C2C5DAAE900C46831 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5140B2C5DAAE900C46831 /* CategoryRow.swift */; };
+		01B5140F2C5DAB3000C46831 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5140E2C5DAB3000C46831 /* Category.swift */; };
+		01B514112C5DAF4200C46831 /* CategoryColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514102C5DAF4200C46831 /* CategoryColor.swift */; };
+		01B514132C5DB06800C46831 /* CategoryIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514122C5DB06800C46831 /* CategoryIconView.swift */; };
+		01B514162C5DB7CE00C46831 /* EditCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514152C5DB7CE00C46831 /* EditCategoryView.swift */; };
+		01B514182C5DB90600C46831 /* ColorSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514172C5DB90600C46831 /* ColorSelectorView.swift */; };
+		01B5141A2C5DBBE900C46831 /* IconSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B514192C5DBBE900C46831 /* IconSelectorView.swift */; };
+		01B5CF482C6005820007E6A0 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5CF472C6005820007E6A0 /* EditExpenseView.swift */; };
+		01B63EF22C6E859F0056DB2B /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B63EF12C6E859F0056DB2B /* CategoriesListViewModel.swift */; };
+		01B63EF52C6E8C470056DB2B /* ExpensesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B63EF42C6E8C470056DB2B /* ExpensesListViewModel.swift */; };
+		01CA71292C614BBA00216016 /* SelectCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA71282C614BBA00216016 /* SelectCategory.swift */; };
+		01CA712B2C61643B00216016 /* EditExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA712A2C61643B00216016 /* EditExpenseViewModel.swift */; };
+		01CA712D2C61669A00216016 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA712C2C61669A00216016 /* PrimaryButton.swift */; };
+		01CA712F2C6184D500216016 /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA712E2C6184D500216016 /* TimeRange.swift */; };
+		01CD3C332C628BBB00D13BD6 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD3C322C628BBB00D13BD6 /* PreviewData.swift */; };
+		01CE732C2C62B352006A9275 /* CategoriesPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE732B2C62B352006A9275 /* CategoriesPieChart.swift */; };
+		01CE732E2C62B844006A9275 /* TimeChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE732D2C62B844006A9275 /* TimeChart.swift */; };
+		01CE73302C630DEB006A9275 /* ValidatedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE732F2C630DEB006A9275 /* ValidatedTextFieldStyle.swift */; };
 		01F4FA022C5D9E4E006AE4F8 /* xpenzoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FA012C5D9E4E006AE4F8 /* xpenzoApp.swift */; };
-		01F4FA042C5D9E4E006AE4F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FA032C5D9E4E006AE4F8 /* ContentView.swift */; };
-		01F4FA062C5D9E4E006AE4F8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FA052C5D9E4E006AE4F8 /* Item.swift */; };
 		01F4FA082C5D9E4F006AE4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F4FA072C5D9E4F006AE4F8 /* Assets.xcassets */; };
 		01F4FA0B2C5D9E4F006AE4F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F4FA0A2C5D9E4F006AE4F8 /* Preview Assets.xcassets */; };
 		01F4FA152C5D9E50006AE4F8 /* xpenzoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FA142C5D9E50006AE4F8 /* xpenzoTests.swift */; };
-		01F4FA1F2C5D9E50006AE4F8 /* xpenzoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FA1E2C5D9E50006AE4F8 /* xpenzoUITests.swift */; };
-		01F4FA212C5D9E50006AE4F8 /* xpenzoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4FA202C5D9E50006AE4F8 /* xpenzoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +56,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B3D1F12C5EBB50007A774F /* EditCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryViewModel.swift; sourceTree = "<group>"; };
+		01B3D1F32C5ECB60007A774F /* ExpenseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRow.swift; sourceTree = "<group>"; };
+		01B3D1F52C5ECBA2007A774F /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		01B514002C5DA96300C46831 /* RootTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabsView.swift; sourceTree = "<group>"; };
+		01B514022C5DA98700C46831 /* ExpensesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListView.swift; sourceTree = "<group>"; };
+		01B514042C5DA9A900C46831 /* CategoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListView.swift; sourceTree = "<group>"; };
+		01B514092C5DAA0B00C46831 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		01B5140B2C5DAAE900C46831 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		01B5140E2C5DAB3000C46831 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		01B514102C5DAF4200C46831 /* CategoryColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryColor.swift; sourceTree = "<group>"; };
+		01B514122C5DB06800C46831 /* CategoryIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIconView.swift; sourceTree = "<group>"; };
+		01B514152C5DB7CE00C46831 /* EditCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryView.swift; sourceTree = "<group>"; };
+		01B514172C5DB90600C46831 /* ColorSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorView.swift; sourceTree = "<group>"; };
+		01B514192C5DBBE900C46831 /* IconSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelectorView.swift; sourceTree = "<group>"; };
+		01B5CF472C6005820007E6A0 /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		01B63EF12C6E859F0056DB2B /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
+		01B63EF42C6E8C470056DB2B /* ExpensesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListViewModel.swift; sourceTree = "<group>"; };
+		01CA71282C614BBA00216016 /* SelectCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategory.swift; sourceTree = "<group>"; };
+		01CA712A2C61643B00216016 /* EditExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseViewModel.swift; sourceTree = "<group>"; };
+		01CA712C2C61669A00216016 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		01CA712E2C6184D500216016 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
+		01CD3C322C628BBB00D13BD6 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		01CE732B2C62B352006A9275 /* CategoriesPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPieChart.swift; sourceTree = "<group>"; };
+		01CE732D2C62B844006A9275 /* TimeChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeChart.swift; sourceTree = "<group>"; };
+		01CE732F2C630DEB006A9275 /* ValidatedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatedTextFieldStyle.swift; sourceTree = "<group>"; };
 		01F4F9FE2C5D9E4E006AE4F8 /* xpenzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xpenzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F4FA012C5D9E4E006AE4F8 /* xpenzoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xpenzoApp.swift; sourceTree = "<group>"; };
-		01F4FA032C5D9E4E006AE4F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		01F4FA052C5D9E4E006AE4F8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		01F4FA072C5D9E4F006AE4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F4FA0A2C5D9E4F006AE4F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01F4FA102C5D9E50006AE4F8 /* xpenzoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xpenzoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F4FA142C5D9E50006AE4F8 /* xpenzoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xpenzoTests.swift; sourceTree = "<group>"; };
 		01F4FA1A2C5D9E50006AE4F8 /* xpenzoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xpenzoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01F4FA1E2C5D9E50006AE4F8 /* xpenzoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xpenzoUITests.swift; sourceTree = "<group>"; };
-		01F4FA202C5D9E50006AE4F8 /* xpenzoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xpenzoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +115,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B3D1F02C5EBB2D007A774F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				01B63EF02C6E857E0056DB2B /* Categories */,
+				01B63EF32C6E8C1B0056DB2B /* Expenses */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		01B513FF2C5DA93C00C46831 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01B514082C5DA9FA00C46831 /* Dashboard */,
+				01B514062C5DA9AD00C46831 /* Categories */,
+				01B514072C5DA9B600C46831 /* Expenses */,
+				01B514002C5DA96300C46831 /* RootTabsView.swift */,
+				01CA712C2C61669A00216016 /* PrimaryButton.swift */,
+				01CE732F2C630DEB006A9275 /* ValidatedTextFieldStyle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01B514062C5DA9AD00C46831 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				01B514042C5DA9A900C46831 /* CategoriesListView.swift */,
+				01B5140B2C5DAAE900C46831 /* CategoryRow.swift */,
+				01B514122C5DB06800C46831 /* CategoryIconView.swift */,
+				01B514152C5DB7CE00C46831 /* EditCategoryView.swift */,
+				01B514192C5DBBE900C46831 /* IconSelectorView.swift */,
+				01B514172C5DB90600C46831 /* ColorSelectorView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		01B514072C5DA9B600C46831 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				01B514022C5DA98700C46831 /* ExpensesListView.swift */,
+				01CA71282C614BBA00216016 /* SelectCategory.swift */,
+				01B5CF472C6005820007E6A0 /* EditExpenseView.swift */,
+				01B3D1F32C5ECB60007A774F /* ExpenseRow.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		01B514082C5DA9FA00C46831 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				01B514092C5DAA0B00C46831 /* DashboardView.swift */,
+				01CE732D2C62B844006A9275 /* TimeChart.swift */,
+				01CE732B2C62B352006A9275 /* CategoriesPieChart.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		01B5140D2C5DAAFC00C46831 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01CA712E2C6184D500216016 /* TimeRange.swift */,
+				01B5140E2C5DAB3000C46831 /* Category.swift */,
+				01B3D1F52C5ECBA2007A774F /* Expense.swift */,
+				01B514102C5DAF4200C46831 /* CategoryColor.swift */,
+				01CD3C322C628BBB00D13BD6 /* PreviewData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01B514142C5DB29500C46831 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01F4FA072C5D9E4F006AE4F8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01B63EF02C6E857E0056DB2B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				01B3D1F12C5EBB50007A774F /* EditCategoryViewModel.swift */,
+				01B63EF12C6E859F0056DB2B /* CategoriesListViewModel.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		01B63EF32C6E8C1B0056DB2B /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				01CA712A2C61643B00216016 /* EditExpenseViewModel.swift */,
+				01B63EF42C6E8C470056DB2B /* ExpensesListViewModel.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
 		01F4F9F52C5D9E4E006AE4F8 = {
 			isa = PBXGroup;
 			children = (
 				01F4FA002C5D9E4E006AE4F8 /* xpenzo */,
 				01F4FA132C5D9E50006AE4F8 /* xpenzoTests */,
-				01F4FA1D2C5D9E50006AE4F8 /* xpenzoUITests */,
 				01F4F9FF2C5D9E4E006AE4F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,10 +231,11 @@
 		01F4FA002C5D9E4E006AE4F8 /* xpenzo */ = {
 			isa = PBXGroup;
 			children = (
+				01B5140D2C5DAAFC00C46831 /* Models */,
+				01B513FF2C5DA93C00C46831 /* Views */,
+				01B3D1F02C5EBB2D007A774F /* ViewModels */,
+				01B514142C5DB29500C46831 /* Resources */,
 				01F4FA012C5D9E4E006AE4F8 /* xpenzoApp.swift */,
-				01F4FA032C5D9E4E006AE4F8 /* ContentView.swift */,
-				01F4FA052C5D9E4E006AE4F8 /* Item.swift */,
-				01F4FA072C5D9E4F006AE4F8 /* Assets.xcassets */,
 				01F4FA092C5D9E4F006AE4F8 /* Preview Content */,
 			);
 			path = xpenzo;
@@ -119,15 +255,6 @@
 				01F4FA142C5D9E50006AE4F8 /* xpenzoTests.swift */,
 			);
 			path = xpenzoTests;
-			sourceTree = "<group>";
-		};
-		01F4FA1D2C5D9E50006AE4F8 /* xpenzoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				01F4FA1E2C5D9E50006AE4F8 /* xpenzoUITests.swift */,
-				01F4FA202C5D9E50006AE4F8 /* xpenzoUITestsLaunchTests.swift */,
-			);
-			path = xpenzoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +387,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F4FA042C5D9E4E006AE4F8 /* ContentView.swift in Sources */,
-				01F4FA062C5D9E4E006AE4F8 /* Item.swift in Sources */,
+				01B5141A2C5DBBE900C46831 /* IconSelectorView.swift in Sources */,
+				01B5140C2C5DAAE900C46831 /* CategoryRow.swift in Sources */,
+				01B514132C5DB06800C46831 /* CategoryIconView.swift in Sources */,
+				01B5CF482C6005820007E6A0 /* EditExpenseView.swift in Sources */,
+				01CA712B2C61643B00216016 /* EditExpenseViewModel.swift in Sources */,
+				01CD3C332C628BBB00D13BD6 /* PreviewData.swift in Sources */,
+				01B514162C5DB7CE00C46831 /* EditCategoryView.swift in Sources */,
+				01CE732C2C62B352006A9275 /* CategoriesPieChart.swift in Sources */,
+				01B514112C5DAF4200C46831 /* CategoryColor.swift in Sources */,
+				01CA71292C614BBA00216016 /* SelectCategory.swift in Sources */,
+				01B63EF22C6E859F0056DB2B /* CategoriesListViewModel.swift in Sources */,
+				01B63EF52C6E8C470056DB2B /* ExpensesListViewModel.swift in Sources */,
+				01B514052C5DA9A900C46831 /* CategoriesListView.swift in Sources */,
+				01B514182C5DB90600C46831 /* ColorSelectorView.swift in Sources */,
+				01CE732E2C62B844006A9275 /* TimeChart.swift in Sources */,
+				01CA712F2C6184D500216016 /* TimeRange.swift in Sources */,
+				01B3D1F22C5EBB50007A774F /* EditCategoryViewModel.swift in Sources */,
+				01B5140A2C5DAA0B00C46831 /* DashboardView.swift in Sources */,
+				01B3D1F42C5ECB60007A774F /* ExpenseRow.swift in Sources */,
+				01B3D1F62C5ECBA2007A774F /* Expense.swift in Sources */,
+				01B5140F2C5DAB3000C46831 /* Category.swift in Sources */,
+				01B514012C5DA96300C46831 /* RootTabsView.swift in Sources */,
+				01CE73302C630DEB006A9275 /* ValidatedTextFieldStyle.swift in Sources */,
+				01CA712D2C61669A00216016 /* PrimaryButton.swift in Sources */,
 				01F4FA022C5D9E4E006AE4F8 /* xpenzoApp.swift in Sources */,
+				01B514032C5DA98700C46831 /* ExpensesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F4FA212C5D9E50006AE4F8 /* xpenzoUITestsLaunchTests.swift in Sources */,
-				01F4FA1F2C5D9E50006AE4F8 /* xpenzoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +576,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"xpenzo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Xpenzo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,9 +591,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosyslas.xpenzo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,11 +611,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"xpenzo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Xpenzo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,9 +626,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosyslas.xpenzo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -12,7 +12,8 @@ import SwiftData
 struct xpenzoApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Category.self,
+            Expense.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +26,8 @@ struct xpenzoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootTabsView()
+                .preferredColorScheme(.light)
         }
         .modelContainer(sharedModelContainer)
     }
